@@ -27,7 +27,7 @@ def create_pdf(get_json_content):
 
 @pytest.fixture(scope='session', autouse=True)
 def create_csv(get_json_content):
-    with open('../data/test_files/content.csv', 'w') as csvfile:
+    with open('../data/test_files/content.csv', 'w', newline='') as csvfile:
         fieldnames = ['name', 'orders', 'distance']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
