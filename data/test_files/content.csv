@@ -1,0 +1,4 @@
+name,orders,distance
+Anna,"['pizza', 'cola']",10
+Bob,"['french fries', 'water']",5
+Max,"['nuggets', 'coffee']",8
