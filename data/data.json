@@ -1,0 +1,28 @@
+{
+  "clients": [
+    {
+      "name": "Anna",
+      "orders": [
+        "pizza",
+        "cola"
+      ],
+      "distance": 10
+    },
+    {
+      "name": "Bob",
+      "orders": [
+        "french fries",
+        "water"
+      ],
+      "distance": 5
+    },
+    {
+      "name": "Max",
+      "orders": [
+        "nuggets",
+        "coffee"
+      ],
+      "distance": 8
+    }
+  ]
+}
